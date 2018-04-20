@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="bin\www" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="bin/www" working-dir="$PROJECT_DIR$">
+    <envs>
+      <env name="DEBUG" value="FavColors:*" />
+      <env name="MONGO_URL" value="mongodb://FavColor:password@ds247619.mlab.com:47619/uaccounts" />
+      <env name="TWITTER_CONSUMER_KEY" value="2gc5Fo1gG8bSzA1wHBsvR1tPj" />
+      <env name="TWITTER_CONSUMER_SECRET" value="oygLOLjlql7nKf0FFrBqYoGzscS1WJKTv7GGPdMvqjKRfVjDi3 " />
+    </envs>
+    <EXTENSION ID="com.jetbrains.nodejs.run.NodeJSStartBrowserRunConfigurationExtension">
+      <browser url="http://localhost:3000/" />
+    </EXTENSION>
+    <method />
+  </configuration>
+</component>
